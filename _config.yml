@@ -1,10 +1,10 @@
-title: devlopr
-subtitle: A Portfolio Jekyll Theme Built for Developers
+title: devlopn
+subtitle: Developing For Developers
 description: >- # this means to ignore newlines until "baseurl:"
   devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
 
-url: "" # the base hostname & protocol for your site, e.g. https://example.github.io
-baseurl: "" # the subpath of your site, e.g. /blog
+url: "btwo.me" # the base hostname & protocol for your site, e.g. https://example.github.io
+baseurl: "/" # the subpath of your site, e.g. /blog
 
 # Navigation
 urls:
@@ -12,10 +12,10 @@ urls:
       url: /
     - text: About
       url: /about
-    - text: Blog
-      url: /blog
-    - text: Gallery
-      url: /gallery
+    - text: News
+      url: /news
+    - text: Services
+      url: /services
     - text: Shop
       url : /shop
     - text: Contact
@@ -25,55 +25,55 @@ urls:
 # Edit Author details (For multi authors check _data/authors.yml)
 
 author_logo: profile.png
-author: John Doe
-author_bio: Hi, my name is John Doe. I built this site using devlopr-jekyll :D
-author_email: "mail@sujaykundu.com"
-author_location: India
-author_website_url: "https://sujaykundu.com"
+author: Nathan R
+author_bio: Hi, my name is Nathan. I built this site using devlopr-jekyll :D
+author_email: "contact@btwo.me"
+author_location: United States of America
+author_website_url: "https://github.com/nater0000"
 typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
-            - company_name: Google
-              company_logo: google.png
-              company_url: https://google.com
-              designation: Software Engineer
-              description: Worked on various Google Products
+            - company_name: Cisco
+              company_logo: cisco.png
+              company_url: https://cisco.com
+              designation: Lead Engineer
+              description: Webex AI
               visibility: true
-            - company_name: Microsoft
-              company_logo: microsoft.png
-              company_url: https://microsoft.com
-              designation: Azure Developer
-              description: Worked on various Azure Cloud Products
+            - company_name: Qualcomm
+              company_logo: qualcomm.png
+              company_url: https://qualcomm.com
+              designation: Engineer
+              description: Voice and Video over LTE
               visibility: true
 
 # Education
 author_education_details:
-              - college_logo: mit.png
-                college_name: MIT
-                college_url: https://mit.org
-                college_degree: CS Engineer
-                description: Bachelor of Technology
+              - college_logo: sdsu.png
+                college_name: SDSU
+                college_url: https://sdsu.edu
+                college_degree: BS Computer Science
+                description: Bachelor of Science
                 visibility: true
 
 # Projects
 author_project_details:
-              - project_thumbnail: gamershub.png
-                project_title: Gamers Hub
-                project_description: A Platform built for Gamers and Game Devs
-                project_url: https://gamershub.in
+              - project_thumbnail: btwome.png
+                project_title: B2
+                project_description: Contracting Software Services
+                project_url: https://www.btwo.me
                 visibility: true
-              - project_thumbnail: hack4r.PNG
-                project_title: Hack4r
-                project_description: A Platform built for Hackers and Penetration Testers
-                project_url: https://hack4r.com
+              - project_thumbnail: moneylesssociety.png
+                project_title: Moneyless Society
+                project_description: Collaborating for a safer future
+                project_url: https://moneylesssociety.com
                 visibility: true
 
 # social links
-twitter_username: xplor4r
-github_username:  sujaykundu777
-instagram_username: xplor4r
+#twitter_username: johndoe
+github_username:  nater0000
+#instagram_username: johndoe
 # facebook_username: johndoe
 # linkedin_username: johndoe
 # behance_username: johndoe
@@ -85,20 +85,20 @@ instagram_username: xplor4r
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
 # disqus_shortname: sujay-kundu
-hyvor_talk_website_id: 476
+#hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+#wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+mailchimp_form_url: https://btwome.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
-formspree_email: johndoe@gmail.com
+formspree_email: forms@btwo.me
 
 # releases - widget can be (sidebar, modal or embed)
-olvy_organization: devlopr
+olvy_organization: devlopn
 olvy_widget_type: sidebar
 
 # syntax highlighter
@@ -114,7 +114,7 @@ show_author_project_details: true
 # pagination of posts
 paginate: 4
 per_page: 4
-paginate_path: "/blog/page/:num/"
+paginate_path: "/news/page/:num/"
 
 # minify
 # compress_html:
@@ -141,7 +141,7 @@ collections:
 defaults:
   -
     scope:
-      path: "gallery"
+      path: "services"
     values:
       permalink: /:path/:basename:output_ext
   -
@@ -150,7 +150,7 @@ defaults:
       type: authors
     values:
       layout: author
-      permalink: /blog/authors/:slug
+      permalink: /news/authors/:slug
   -
     scope:
       path: 'assets/**'
