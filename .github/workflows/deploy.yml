@@ -85,8 +85,8 @@ jobs:
     if: needs.set-deploy-type.outputs.target == 'ftp'
 
     steps:
-      - name: ==[ Deploy Jekyll Site ]==
-      - uses: actions/checkout@v4
+      - name: Deploy Jekyll Site
+        uses: actions/checkout@v4
 
       - name: Setup ruby
         uses: ruby/setup-ruby@v1
