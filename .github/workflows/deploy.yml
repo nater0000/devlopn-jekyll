@@ -19,7 +19,7 @@ jobs:
           echo "TARGET=$TARGET" >> $GITHUB_ENV
 
       - name: check if target is valid
-        if: success() && !contains(fromJSON('["gh-pages", "firebase", "none"]'), env.TARGET)
+        if: success() && !contains(fromJSON('["gh-pages", "firebase", "none", "ftp"]'), env.TARGET)
         run: echo 'Invalid Deployment Target' && exit 1
 
       # gh actions doesn't support using the 'env' context on job level ifs for
