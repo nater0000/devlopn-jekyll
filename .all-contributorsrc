@@ -6,6 +6,17 @@
   "commit": false,
   "contributors": [
     {
+      "login": "nater0000",
+      "name": "Nathan R",
+      "avatar_url": "https://avatars.githubusercontent.com/u/123835325?v=4",
+      "profile": "https://btwo.me",
+      "contributions": [
+        "personalization",
+        "design",
+        "code"
+      ]
+    },
+    {
       "login": "sujaykundu777",
       "name": "Sujay Kundu",
       "avatar_url": "https://avatars.githubusercontent.com/u/10703200?v=4",
@@ -138,8 +149,8 @@
     }
   ],
   "contributorsPerLine": 7,
-  "projectName": "devlopr-jekyll",
-  "projectOwner": "sujaykundu777",
+  "projectName": "devlopn-jekyll",
+  "projectOwner": "nater0000",
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,

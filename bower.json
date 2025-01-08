@@ -1,15 +1,16 @@
 {
-  "name": "devlopr-jekyll",
-  "homepage": "https://github.com/sujaykundu777/devlopr-jekyll",
+  "name": "devlopn-jekyll",
+  "homepage": "https://github.com/nater0000/devlopn-jekyll",
   "authors": [
-    "sujaykundu777 <sujaykundu777@gmail.com>"
+    "nater0000 <moso.nate.r@gmail.com>"
   ],
-  "description": "A Jekyll Theme Built For Developers",
+  "description": "Simple Publishing",
   "main": "",
   "keywords": [
     "jekyll-theme",
     "jekyll",
-    "gallery"
+    "gallery",
+    "publish"
   ],
   "license": "MIT",
   "ignore": [

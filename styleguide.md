@@ -5,7 +5,7 @@ permalink: /styleguide/
 ---
 
 
-### devlopr - Styleguide
+### devlopn - Styleguide
 
 <hr />
 

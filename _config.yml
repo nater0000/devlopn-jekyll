@@ -1,9 +1,9 @@
 title: devlopn
 subtitle: Developing For Developers
 description: >- # this means to ignore newlines until "baseurl:"
-  devlopr-jekyll is a beautiful Jekyll Theme Built For Developers, which is optimized for speed and readability.
+  devlopn-jekyll is a publishing website, which is optimized for the future of media.
 
-url: "btwo.me" # the base hostname & protocol for your site, e.g. https://example.github.io
+url: "https://btwo.me" # the base hostname & protocol for your site, e.g. https://example.github.io
 baseurl: "/" # the subpath of your site, e.g. /blog
 
 # Navigation
@@ -26,11 +26,11 @@ urls:
 
 author_logo: profile.png
 author: Nathan R
-author_bio: Hi, my name is Nathan. I built this site using devlopr-jekyll :D
+author_bio: Building the future of media publishing.
 author_email: "contact@btwo.me"
 author_location: United States of America
-author_website_url: "https://github.com/nater0000"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
+author_website_url: "https://btwo.me/about/"
+typewrite-text: Electronic Publishing
 hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -169,14 +169,14 @@ plugins:
   # - jekyll-admin 
 
 # Jekyll Admin Config
-# jekyll_admin:
-  # hidden_links:
+jekyll_admin:
+  hidden_links:
   #   - posts
   #   - pages
   #   - staticfiles
-  #   - datafiles
-  #   - configuration
-  # homepage: "posts"
+    - datafiles
+    - configuration
+  homepage: "posts"
 
 
 # Exclude from processing.

@@ -18,7 +18,7 @@ gem 'base64'
 
 # Plugins
 group :jekyll_plugins do
-    # gem 'devlopr', '~> 0.4.5'
+    # gem 'devlopn', '~> 0.1.0'
     gem 'jgd', '~> 1.14.0'
     gem 'jekyll-feed', '~> 0.17.0'
     gem 'jekyll-paginate', '~> 1.1.0'
@@ -38,6 +38,6 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
 end
 
 # Performance-booster for watching directories on Windows
-gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
+gem "wdm", "~> 0.2", :install_if => Gem.win_platform?
 gem "webrick", "~> 1.7"
 gem "ffi", "~> 1.16.3"
