@@ -191,6 +191,7 @@ jekyll_admin:
 # none - For no default
 # gh-pages - For Github Pages
 # firebase - For Firebase Hosting
+# ftp - For FTP Hosting
 
 sass:
   sass_dir: _sass
