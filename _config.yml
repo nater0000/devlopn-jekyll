@@ -12,8 +12,8 @@ urls:
       url: /
     - text: About
       url: /about
-    - text: News
-      url: /news
+    #- text: News
+    #  url: /news
     - text: Services
       url: /services
     - text: Shop
@@ -143,7 +143,7 @@ defaults:
     scope:
       path: "services"
     values:
-      permalink: /:path/:basename:output_ext
+      permalink: /services/:path/:basename:output_ext
   -
     scope:
       path: ""
