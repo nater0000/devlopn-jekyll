@@ -151,17 +151,17 @@ You’ll only work with a single file to edit/add theme style: assets/css/main.s
 
 ### Deploy your Changes
 
-Once happy with your blog changes. Push your changes to master branch.
+Once happy with your blog changes. Push your changes to main branch.
 
 > **Step 8.** Push Your Local Changes
 
 ```bash
  $ git add .
  $ git commit -m "my new blog using devlopr-jekyll"
- $ git push origin master
+ $ git push origin main
 ```
 
-Visit your Github Repo settings ! Enable master branch as Github Pages Branch :
+Visit your Github Repo settings ! Enable main branch as Github Pages Branch :
 
 ![Devlopr Jekyll Repo](/assets/img/posts/fork6.PNG){:class="img-fluid"}
 
